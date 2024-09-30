@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "adi": "HTML"
+    "konu": "HTML"
   },
   {
     "id": 2,
-    "adi": "CSS"
+    "konu": "CSS"
   },
   {
     "id": 3,
-    "adi": "JS"
+    "konu": "JS"
   },
   {
     "id": 4,
-    "adi": "Accessibility"
+    "konu": "Accessibility"
   }
 ]
