@@ -1,5 +1,8 @@
 "use client"
+import Image from "next/image";
 import {useState, useEffect} from "react";
+import Moon from "@/app/img/moon.svg"
+import Sun from "@/app/img/sun.svg"
 
 export default function Header() {
   const [theme, setTheme] = useState('light');
@@ -45,7 +48,12 @@ export default function Header() {
           <h4>{selectedTopic}</h4>
         </span>
       )}
-      <img src={sun} alt="Sun Icon" />
+      <Image
+        src={Sun}
+        width={20}
+        height={20}
+        alt="Sun Icon"
+      />
       <label className="switch">
         <input
           type="checkbox"
@@ -54,7 +62,12 @@ export default function Header() {
         />
         <span className="slider round"></span>
       </label>
-      <img src={moon} alt="Moon Icon" />
+      <Image
+        src={Moon}
+        width={20}
+        height={20}
+        alt="Moon Icon"
+      />
     </div>
   );
 }
