@@ -1,3 +1,8 @@
+:root {
+  --font-geist-sans: 'Geist Sans', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
 .container {
   width: 375px;
   margin: 0 auto;
@@ -41,6 +46,13 @@
     line-height: 18px;
     color: #313E51;
   }
+}
+
+.StartHeader h5 {
+  font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #313E51;
 }
 
 .category-icon img{
