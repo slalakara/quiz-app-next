@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="container" style={{ fontFamily: 'var(--font-geist-sans)'}}>
+      <body style={{ fontFamily: 'var(--font-geist-sans)'}}>
         {children}
       </body>
     </html>
