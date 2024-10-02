@@ -164,7 +164,7 @@ input:checked + .slider:before {
 .header {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 8px;
   margin-bottom: 32px;
   align-items: center;
@@ -482,7 +482,6 @@ button.NextQuestion {
   .header {
     display: flex;
     justify-content: flex-end;
-    justify-content: space-between;
     gap: 32px;
     margin-bottom: 110px;
     width: 641px;
@@ -725,7 +724,7 @@ button.NextQuestion {
     width: 1310px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   button {
